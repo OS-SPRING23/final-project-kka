@@ -1,12 +1,19 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/tUpY9ilp)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11144656&assignment_repo_type=AssignmentRepo)
+
+
 Operating System Project
+
 Sleeping Barber Problem(System Call)
+
 Group Members: 
 Aahil Ashiq Ali (K21-4549)
 Khuzaima Ahsan (K21-3328)
 Khubaib Lodhi (K21-4596)
+
 Instructor name: Dr Ghufran Ahmed 
+
+
 Objective : 
 The objective of the Sleeping Barber Problem is to model and simulate a scenario in which a limited number of resources (barber chairs) must be shared among a larger number of clients (customers who want a haircut). The problem arises when there are more customers than there are available barbers or chairs, leading to congestion and long wait times.
 
@@ -69,6 +76,11 @@ Second, in the customer function, mutex is locked so customer can check if he ha
 Then in asm_linkage functin, it acts like a main function. Mutex is initialized. Then threads are created and started executing. The threads donot stop themselves until kernel decides to do so if it wants to unload module or process is terminated.
 Results:
 Below are the attached snap shot of our project
+
 ![image](https://github.com/OS-SPRING23/final-project-kka/assets/133526241/28b59528-5d35-4969-90c7-4628252ba818)
+
+
 ![image](https://github.com/OS-SPRING23/final-project-kka/assets/133526241/ac5536fd-c0a5-4b2c-acbb-139f82dabd8b)
+
+
 ![image](https://github.com/OS-SPRING23/final-project-kka/assets/133526241/9a10eef0-4d75-41c7-84db-f13785240a0f)
