@@ -74,7 +74,9 @@ First, in the barber function, mutex is locked so only barber is allowed to chan
 Second, in the customer function, mutex is locked so customer can check if he has space to wait. If there is space, then customers waiting is incremented, else the person has to leave with no effect on variable. 
 
 Then in asm_linkage functin, it acts like a main function. Mutex is initialized. Then threads are created and started executing. The threads donot stop themselves until kernel decides to do so if it wants to unload module or process is terminated.
+
 Results:
+
 Below are the attached snap shot of our project
 
 ![image](https://github.com/OS-SPRING23/final-project-kka/assets/133526241/28b59528-5d35-4969-90c7-4628252ba818)
