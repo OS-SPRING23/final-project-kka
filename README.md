@@ -14,7 +14,8 @@ Khubaib Lodhi (K21-4596)
 Instructor name: Dr Ghufran Ahmed 
 
 
-Objective : 
+Objective :
+
 The objective of the Sleeping Barber Problem is to model and simulate a scenario in which a limited number of resources (barber chairs) must be shared among a larger number of clients (customers who want a haircut). The problem arises when there are more customers than there are available barbers or chairs, leading to congestion and long wait times.
 
 The problem is usually formulated as follows: In a barber shop, there is one barber and a certain number of chairs for customers to wait in. When the barber is idle, he sleeps in his chair until a customer wakes him up. If there are no customers waiting, the barber goes back to sleep. If a customer arrives and finds the barber sleeping, he wakes him up and waits in one of the chairs if they are available, or leaves if all the chairs are occupied. When the barber finishes cutting a customer's hair, he either goes back to sleep (if no other customers are waiting) or calls in the next customer waiting in the queue.
