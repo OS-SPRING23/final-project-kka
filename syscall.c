@@ -4,8 +4,8 @@
 #include <pthread.h>
 #include <sys/syscall.h>
 #include <linux/kernel.h>
-#define sys_sleeping_barber 336
-#define MAX_CHAIRS 5 
+#define sys_sleeping_barber 336 //this is the number where we have added the system call.
+#define MAX_CHAIRS 5  //Total Number of chairs for customer
 
 pthread_mutex_t waiting_room_mutex = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t barber_ready_cond = PTHREAD_COND_INITIALIZER;
@@ -51,7 +51,7 @@ static void* customer_function(void *arg) {
 int main() {
     pthread_t thread1, thread2;
     
-    syscall(sys_sleeping_barber);
+    syscall(sys_sleeping_barber);//for calling the system call
     pthread_create(&thread1, NULL, barber_function, NULL);
     pthread_create(&thread2, NULL, customer_function, NULL);
 
